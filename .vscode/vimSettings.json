@@ -1,0 +1,142 @@
+{
+  "editor.lineNumbers": "relative",
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.replace": "underline",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["leader", "c"],
+      "commands": ["editor.action.clipboardCopyAction"]
+    },
+    {
+      "before": ["leader", "p", "y"],
+      "after": ["\"", "0", "p"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["z", "M"],
+      "commands": ["editor.foldAll"]
+    },
+    {
+      "before": ["[", "e"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
+    {
+      "before": ["]", "e"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["[", "<space>"],
+      "commands": ["editor.action.insertLineBefore"]
+    },
+    {
+      "before": ["]", "<space>"],
+      "commands": ["editor.action.insertLineAfter"]
+    },
+    {
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": ["bookmarks.toggle"]
+    },
+    {
+      "before": ["<leader>", "a", "b"],
+      "commands": ["bookmarks.listFromAllFiles"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["bookmarks.list"]
+    },
+    {
+      "before": ["[", "m"],
+      "commands": ["bookmarks.jumpToPrevious"]
+    },
+    {
+      "before": ["]", "m"],
+      "commands": ["bookmarks.jumpToNext"]
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["leader", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["leader", "f"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["leader", "s", "p"],
+      "commands": ["editor.action.indentationToSpaces"]
+    },
+    {
+      "before": ["leader", "t", "b"],
+      "commands": ["editor.action.indentationToTabs"]
+    },
+    {
+      "before": ["leader", "t", "m"],
+      "commands": ["workbench.action.terminal.toggleTerminal"]
+    },
+    {
+      "before": ["leader", "p", "y"],
+      "after": ["\"", "0", "p"]
+    },
+    {
+      "before": ["leader", ","],
+      "commands": ["editor.action.selectAll"]
+    },
+    {
+      "before": ["leader", "v", "s"],
+      "commands": [":vsplit"]
+    },
+    {
+      "before": ["leader", "h", "s"],
+      "commands": [":split"]
+    },
+    {
+      "before": ["leader", "y", "h"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["Z", "Z"],
+      "commands": [":wq"]
+    },
+    {
+      "before": ["leader", ";"],
+      "after": ["^", "v", "g", "_"]
+    }
+  ]
+}

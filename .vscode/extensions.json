@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "vscodevim.vim",
+    "coenraads.bracket-pair-colorizer",
+    "oderwat.indent-rainbow",
+    "alefragnani.bookmarks"
+  ]
+}
