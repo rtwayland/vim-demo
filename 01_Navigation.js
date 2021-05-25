@@ -17,13 +17,6 @@ function test() {
   };
 }
 
-/* File Nav */
-
-// Use "G" (shift + g) to jump to the last line of the file
-// Use "gg" to jump to the first line of the file
-// You can type a number followed by "G" (shift + g) to go to a specific line number
-// Type 25G (25 + shift + g) to get to this line specifically
-
 /* Word Nav */
 
 // "w" will move your cursor to the next word.
@@ -36,6 +29,29 @@ function test() {
 const ob = { first: { middle: { end: "last" } } };
 
 const last = ob.first.middle.end; // Navigate this line using the word navigators
+
+/* File Nav */
+
+// Use "G" (shift + g) to jump to the last line of the file
+// Use "gg" to jump to the first line of the file
+// You can type a number followed by "G" (shift + g) to go to a specific line number
+// Type 38G (38 + shift + g) to get to this line specifically
+
+// If you want to move your cursor up or down the page in sections,
+// you can use "ctrl + f" to move down a page,
+// "ctrl + d" to move down half a page,
+// "ctrl + b" to move up a page,
+// or "ctrl + u" to move down half a page.
+
+/* Controlling View */
+
+// Sometimes you might not want to move your cursor, but you want the page to be positioned around your cursor.
+// Use "zz" to scroll the page so that your cursor is in the middle of the view.
+// Use "zt" to scroll the page so that your cursor is at the top of the view.
+// Use "zb" to scroll the page so that your cursor is at the bottom of the view.
+
+// You can also manually scroll the page up using "ctrl + y",
+// or down using "ctrl + e"
 
 /* Blocks */
 
