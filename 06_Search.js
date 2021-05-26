@@ -33,7 +33,7 @@ const getNames = () => {};
 // You can jump next or previous with ";" or "," (semicolon or comma)
 
 // Use "f\" to find the first "\" character. Then move back and forth using the ";" and ","
-// This is especially usefull if you want to perform an action on each of these characters.
+// This is especially useful if you want to perform an action on each of these characters.
 // The "." command could be used to quickly execute the same action on each instance.
 
 // Fix the string to use forward slashes instead of back slashes.

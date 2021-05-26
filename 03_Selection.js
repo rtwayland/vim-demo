@@ -48,3 +48,17 @@ function print2(name, greeting) {
   let greeting2 = greeting + "2";
   console.log(name, greeting);
 }
+
+/* Granular Control */
+
+// When a block of text is selected in "visual" mode,
+// you can toggle between the two ends of the selection with the "o" key.
+// This is useful when you might need to expand your selection
+// but you don't need to restart from the beginning.
+
+function print2(name, greeting) {
+  let name2 = name + "2";
+  let greeting2 = greeting + "2";
+  console.log(name, greeting);
+  console.log(name2, greeting2);
+}

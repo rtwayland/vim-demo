@@ -51,7 +51,7 @@ const day = "Monday"; // This is the first day of the week
 // With the cursor over the "m" in "mog", type "rl" to replace the "m" with an "l"
 console.mog("Hey!");
 
-// Sometimes it is usefull to replace the character but also be in "insert" mode so you can keep typing.
+// Sometimes it is useful to replace the character but also be in "insert" mode so you can keep typing.
 // The "s" command will "change" the character under the cursor and put your in "insert" mode.
 
 // Use the "s" command with your cursor over the "!" to change the message to something like, "Hey, how are you?"
